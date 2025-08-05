@@ -1,5 +1,5 @@
 
-package com.shubhamsingh0.design.lld.designpatterns.creational.factory_method;
+package com.shubhamsingh0.design.lld.designpatterns.creational.factory_method.vehicle;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -8,15 +8,15 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Car implements Vehicle {
-    private String maker;
+public class Bus implements Vehicle {
+    private String company;
     private String model;
-    private String color;
-    private String engineType;
+    private int seatingCapacity;
+    private String routeNumber;
     private String registrationNumber;
 
     public void start() {
-        System.out.println("Starting Car...");
+        System.out.println("Starting Bus...");
     }
 
     public void stop() {
@@ -26,7 +26,7 @@ public class Car implements Vehicle {
             throw new RuntimeException(e);
         }
 
-        System.out.println("Stopping Car...");
+        System.out.println("Stopping Bus...");
         System.out.println("Stop");
     }
 }

@@ -1,4 +1,4 @@
-package com.shubhamsingh0.design.lld.designpatterns.creational.factory_method;
+package com.shubhamsingh0.design.lld.designpatterns.creational.factory_method.vehicle;
 
 public class BikeFactory implements VehicleFactory {
     public BikeFactory() {

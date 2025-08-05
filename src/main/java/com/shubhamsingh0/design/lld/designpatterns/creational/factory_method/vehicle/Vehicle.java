@@ -1,5 +1,5 @@
 
-package com.shubhamsingh0.design.lld.designpatterns.creational.factory_method;
+package com.shubhamsingh0.design.lld.designpatterns.creational.factory_method.vehicle;
 
 public interface Vehicle {
     // product interface or abstract class should only contain behaviour common to all products impl
