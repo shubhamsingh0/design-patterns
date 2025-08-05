@@ -1,7 +1,5 @@
 package com.shubhamsingh0.design.lld.designpatterns.creational.abstract_factory_method;
 
-import com.shubhamsingh0.design.lld.designpatterns.creational.factory_method.VehicleFactory;
-
 public class Client {
     public static void main(String[] args) {
 //     The abstract factory pattern is used to create families of related objects (like car parts) without specifying their concrete classes.
